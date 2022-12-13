@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+ {{>header}}
+<body>
+    {{>navbar}}
+    <!-- main header -->
+    <div class ="container-fluid main_menu">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- left side div -->
+                    <div class="col-md-12 col-12 main_header_right align-items-center " >
+                        <figure class="errimg">
+                         <img src="images/404.jpg" alt="page not found" class="img-fluid" title="Honey">
+                        </figure>                        
+                        <p>welcome to HoneyEnterprice</p>
+                        <h1>{{errormsg}}</h1>
+                        <a href="/"><button>Go back</button></a>
+                    </div>
+                    <!-- right side div -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER CODE -->
+    {{>footer}}
+</body>
+</html>
